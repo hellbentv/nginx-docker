@@ -7,7 +7,7 @@
 FROM ubuntu
 
 # File Author / Maintainer
-MAINTAINER Alan Bennett
+MAINTAINER akb
 
 # Install Nginx
 
