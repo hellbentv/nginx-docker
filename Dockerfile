@@ -7,7 +7,7 @@
 FROM ubuntu
 
 # File Author / Maintainer
-MAINTAINER akb
+MAINTAINER Alan Bennett
 
 # Install Nginx
 
@@ -24,7 +24,7 @@ RUN apt-get install -y nano wget dialog net-tools
 RUN apt-get install -y nginx    
 
 # Remove the default Nginx configuration file
-# RUN rm -v /etc/nginx/nginx.conf
+#RUN rm -v /etc/nginx/nginx.conf
 
 # Copy a configuration file from the current directory
 # ADD nginx.conf /etc/nginx/
